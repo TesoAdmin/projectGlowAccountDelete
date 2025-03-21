@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Silme Talebi - Project Glow</title>
+</head>
+<body>
+    <h1>Hesap Silme Talebi</h1>
+    <p>Hesabınızı silmek için aşağıdaki bilgileri doldurun:</p>
+
+    <form name="account-deletion" method="POST" data-netlify="true">
+        <label for="email">E-posta Adresiniz:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="username">Kullanıcı Adınız:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="reason">Hesap Silme Sebebiniz:</label><br>
+        <textarea id="reason" name="reason" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Hesap Silme Talebini Gönder">
+    </form>
+
+    <p>Hesap silme talebinizin işleme alınması için kısa bir süre içerisinde sizinle iletişime geçilecektir.</p>
+</body>
+</html>
